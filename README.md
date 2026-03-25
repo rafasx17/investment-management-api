@@ -1,35 +1,23 @@
-API de Gerenciamento de Investimentos
-Esta API foi desenvolvida em Python para facilitar o controle de ativos financeiros, focando em praticidade e organização de dados para investidores.
+# Investment Management API 📈
 
-Principais Funcionalidades:
+A professional Back-end API developed to help investors manage their portfolios, track assets, and monitor dividends.
 
-- Registro de compras e vendas de ações e FIIs
+### 🛠 Technologies
+- **Language:** Python
+- **Framework:** FastAPI
+- **Database:** SQLite
+- **Documentation:** Swagger UI
 
-- Cálculo automático de preço médio dos ativos
+### 🚀 Features
+- Register and track stock and REIT (FIIs) purchases/sales.
+- Automatic average price calculation.
+- Dividend and earnings history tracking.
+- Interactive documentation via Swagger.
 
-- Histórico de dividendos e proventos recebidos
-
-- Relatório consolidado com valor total investido
-
-- Documentação interativa via Swagger para testes rápidos
-
-Tecnologias Utilizadas:
-
-- Linguagem: Python
-
-- Framework: FastAPI
-
-- Banco de Dados: SQLite
-
-Processamento de dados: Pandas
-
-
-Como executar o projeto: 
-
-Instale as dependências: pip install fastapi uvicorn pandas yfinance
-
-Inicie o servidor: uvicorn api:app --reload
-
-Acesse a documentação: http://127.0.0.1:8000/docs
-
-Desenvolvido por Rafael Seco Pieniz - Estudante de Ciência da Computação.
+### 💻 How to run
+1. Clone the repository.
+2. Create a virtual environment: `python -m venv venv`.
+3. Activate it: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Linux/Mac).
+4. Install requirements: `pip install fastapi uvicorn`.
+5. Start the server: `uvicorn main:app --reload`.
+6. Access the docs at: `http://127.0.0.1:8000/docs`.
